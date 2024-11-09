@@ -7,7 +7,7 @@ const user = {
   bio: "I am a skilled programmer with expertise in C#, Python, and C. I have experience in web development and am excited to showcase my projects in this portfolio made by myself.",
 };
 
-export default function Profile() {
+export default function About() {
   return (
     <div style={styles.container}>
       <div style={styles.content}>
@@ -44,5 +44,5 @@ const styles = {
     alignItems: "center",
     textAlign: "center",
     marginTop: "-20%",
-  } as React.CSSProperties, 
+  } as React.CSSProperties,
 };
